@@ -11,30 +11,30 @@ The dataset was fetched from https://github.com/owid/covid-19-data/tree/master/p
 > File name : owid-covid-data.csv
 
 The Excel file was split into two files namely:
-> Covid Deaths
+1. Covid Deaths
 
-> Covid Vaccinations
+2. Covid Vaccinations
 
 This was done for better understanding and analysis of the data.
 
 The coding part is done in Microsoft SQL Server Studio and the workings and snapshot of results are provided in a PDF format.
 
-> Coronavirus DB 2019-2023 FARAZ AHMAD.pdf
+Coronavirus DB 2019-2023 FARAZ AHMAD.pdf
 
 The coding in SQL: 
 
-> SQLQueryCovid.sql
+SQLQueryCovid.sql
 
 Snapshots of the Tableau Dashboard are provided with the following names:
 
-> Covid Cases and Deaths.jpg
+1. Covid Cases and Deaths.jpg
 
-> Covid Test vs Vaccination.jpg
+2. Covid Test vs Vaccination.jpg
 
-> Infection Rate MAP.jpg
+3. Infection Rate MAP.jpg
 
-> New & Cumulative Cases vs Deaths.jpg
+4. New & Cumulative Cases vs Deaths.jpg
 
-> New & Cumulative Vaccinations.jpg
+5. New & Cumulative Vaccinations.jpg
 
-> Vaccination Rate MAP.jpg
+6. Vaccination Rate MAP.jpg
