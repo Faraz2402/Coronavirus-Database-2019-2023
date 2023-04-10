@@ -4,7 +4,7 @@ In this project, the COVID 19 dataset, which was compiled globally, is visualise
 
 The URL to the Tableau Dashboards is provided below:
 
-https://public.tableau.com/app/profile/faraz.ahmad/viz/CoronavirusDatabase2019-2023/Story1
+https://public.tableau.com/app/profile/faraz.ahmad/viz/CoronavirusDatabase2019-2023/Story1#1
 
 The dataset was fetched from https://github.com/owid/covid-19-data/tree/master/public/data
 
