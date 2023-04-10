@@ -21,6 +21,10 @@ The coding part is done in Microsoft SQL Server Studio and the workings and snap
 
 > Coronavirus DB 2019-2023 FARAZ AHMAD.pdf
 
+The coding in SQL: 
+
+> SQLQueryCovid.sql
+
 Snapshots of the Tableau Dashboard are provided with the following names:
 
 > Covid Cases and Deaths.jpg
