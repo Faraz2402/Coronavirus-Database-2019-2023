@@ -6,17 +6,17 @@ from PortfolioProject..CovidDeaths
 order by 1,2;
 
 -- Total Cases vs Total Deaths and Calculating %age of Deaths.
-select location, sum(total_cases) Total_cases , sum(total_deaths) Total_Deaths,
+select sum(total_cases) Total_cases , sum(total_deaths) Total_Deaths,
 concat(round(sum(total_deaths)/sum(total_cases)*100,2),'%') Death_Percentage
 from PortfolioProject..CovidDeaths
-where continent is not null
-group by location
 order by Death_Percentage desc;
 
 -- Analysis for India
-Select Location, date, total_cases, total_deaths, concat(round((total_deaths/total_cases)*100,2),'%') as DeathPercentage
-from PortfolioProject..CovidDeaths where location = 'India' and total_cases !=''
-order by 2;
+select sum(total_cases) Total_cases , sum(total_deaths) Total_Deaths,
+concat(round(sum(total_deaths)/sum(total_cases)*100,2),'%') Death_Percentage
+from PortfolioProject..CovidDeaths
+where location = 'India'
+order by Death_Percentage desc;
 
 --- Querying max cases and deaths for India as on date.
 Select location, MAX(total_cases) as MaximumCases from PortfolioProject..CovidDeaths
@@ -112,7 +112,7 @@ where continent is not null
 group by Location,Population
 order by Highest_Infection_Count desc;
 
--- Showing Global Numbers: World’s total cases, total deaths, total population, death percentage, and case percentage. 
+-- Showing Global Numbers: Worldâ€™s total cases, total deaths, total population, death percentage, and case percentage. 
 
 select sum(new_cases) as TotalCases,
 sum(new_deaths) as TotalDeaths,
@@ -186,32 +186,3 @@ from PortfolioProject..CovidVaccinations
 where continent is not null
 group by Continent
 order by TotalVaccinationCount desc;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
