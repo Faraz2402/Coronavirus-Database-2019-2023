@@ -25,6 +25,10 @@ The coding in SQL:
 
 > SQLQueryCovid.sql
 
+The Tableau Desktop File:
+
+> Covid 19 Database (Faraz Ahmad).twbx
+
 Snapshots of the Tableau Dashboard are provided with the following names:
 
 1. Covid Cases and Deaths.jpg
