@@ -19,11 +19,11 @@ This was done for better understanding and analysis of the data.
 
 The coding part is done in Microsoft SQL Server Studio and the workings and snapshot of results are provided in a PDF format.
 
-Coronavirus DB 2019-2023 FARAZ AHMAD.pdf
+> Coronavirus DB 2019-2023 FARAZ AHMAD.pdf
 
 The coding in SQL: 
 
-SQLQueryCovid.sql
+> SQLQueryCovid.sql
 
 Snapshots of the Tableau Dashboard are provided with the following names:
 
