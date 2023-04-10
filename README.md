@@ -31,7 +31,7 @@ The Tableau Desktop File:
 
 Snapshots of the Tableau Dashboard are provided with the following names:
 
-1. Covid Cases and Deaths.jpg
+1. Covid Cases vs Deaths.jpg
 
 2. Covid Test vs Vaccination.jpg
 
