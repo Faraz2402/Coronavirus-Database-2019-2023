@@ -1,6 +1,7 @@
 # Coronavirus-Database [2019-2023] | SQL Server + Tableau
 
 In this project, the COVID 19 dataset, which was compiled globally, is visualised using Tableau. By providing understanding of the data, the pictorial depiction provides solutions to problems. The URL to the Tableau Dashboards is provided below.
+
 https://public.tableau.com/app/profile/faraz.ahmad/viz/CoronavirusDatabase2019-2023/Story1
 
 The dataset was fetched from https://ourworldindata.org/coronavirus
